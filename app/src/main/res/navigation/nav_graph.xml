@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/menuFragment">
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.eugene.games.newyearsgames.ui.fragments.MenuFragment"
+        android:label="MenuFragment" >
+        <action
+            android:id="@+id/action_menuFragment_to_createPlayersFragment"
+            app:destination="@id/createPlayersFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createPlayersFragment"
+        android:name="com.eugene.games.newyearsgames.ui.fragments.crocodile_new_year.create_players.CreatePlayersFragment"
+        android:label="fragment_create_players"
+        tools:layout="@layout/fragment_create_players" >
+        <action
+            android:id="@+id/action_createPlayersFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.eugene.games.newyearsgames.ui.fragments.crocodile_new_year.game_fragment.GameFragment"
+        android:label="fragment_game"
+        tools:layout="@layout/fragment_game" />
+</navigation>

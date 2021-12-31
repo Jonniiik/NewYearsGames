@@ -1,0 +1,21 @@
+<resources>
+<!--    <string name="app_name">New Years Games</string>-->
+<!--    <string name="start_game">Start the game</string>-->
+<!--    <string name="input_player_name">Input Player name</string>-->
+<!--    <string name="add_player">Add Player</string>-->
+<!--    <string name="one">1</string>-->
+<!--    <string name="two">2</string>-->
+<!--    <string name="three">3</string>-->
+<!--    <string name="select_winner">Select Winners </string>-->
+<!--    <string name="this_person_who_can_kick_ass_all">This is the person who was able to kick everyone ass!!</string>-->
+
+    <string name="app_name">New Years Games</string>
+    <string name="start_game">Начать Игру</string>
+    <string name="input_player_name">Введите Имя Игрока</string>
+    <string name="add_player">Добавить Игрока</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="select_winner">Выбрать Победителей</string>
+    <string name="this_person_who_can_kick_ass_all">Это тот человек, который смог надрать всем зад!!</string>
+</resources>
